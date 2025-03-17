@@ -5,15 +5,33 @@ VisualStudioVersion = 17.13.35806.99 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		LICENSE.txt = LICENSE.txt
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{65024F8B-AA84-4557-A9A7-648418F580E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainorito.Api", "src\Trainorito.Api\Trainorito.Api.csproj", "{A26B348C-D712-4005-9967-3B4C5DB7C47A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A26B348C-D712-4005-9967-3B4C5DB7C47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26B348C-D712-4005-9967-3B4C5DB7C47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26B348C-D712-4005-9967-3B4C5DB7C47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26B348C-D712-4005-9967-3B4C5DB7C47A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A26B348C-D712-4005-9967-3B4C5DB7C47A} = {65024F8B-AA84-4557-A9A7-648418F580E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {011355EE-752C-4022-B1AF-2EC706B0B203}
